@@ -1,3 +1,5 @@
 Important tips and points to remeber for GIT
 
 git rm - removes a file from a project
+git status -s  helps to see the staging status of files
+git status -v gives staging status in verbose 
