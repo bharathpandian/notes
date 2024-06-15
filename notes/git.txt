@@ -3,3 +3,13 @@ Important tips and points to remeber for GIT
 git rm - removes a file from a project
 git status -s  helps to see the staging status of files
 git status -v gives staging status in verbose 
+git tag :
+
+annotated tag - git tag -a <tag-name> -m "message"
+
+to view tag : #git tag
+to view commits of a specific tag 
+git show <tag-name>
+to delete a tag # git tag -d <tag-name>
+light weight tag does not have any info about the commit and person who commited #git tag <taag-name>
+
