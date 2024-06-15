@@ -1,0 +1,11 @@
+Test driven development 
+=> first test cases are developed to faile and develop code to make it work 
+
+
+Smoke test : most important functions are working 
+
+Functional Test : does it do what the code suppose to do
+
+Acceptance test : based on design document
+
+unit test - code 
