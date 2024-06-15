@@ -1,2 +1,1 @@
-from master
-i'm from conflict2
+new data

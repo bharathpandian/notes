@@ -13,3 +13,7 @@ git show <tag-name>
 to delete a tag # git tag -d <tag-name>
 light weight tag does not have any info about the commit and person who commited #git tag <taag-name>
 
+git merge conflict :
+
+# git
+
