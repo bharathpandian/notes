@@ -15,5 +15,29 @@ light weight tag does not have any info about the commit and person who commited
 
 git merge conflict :
 
-# git
+find the file which has conflict , resolve the conflict and add the file and commit again - will fix the issue 
 
+git rebase - this will append the changes to the branch which we try to commit and updates the commit history as latest by updating the HEAD -  making it look like you created your changes after the other branch changes.
+
+git revert : 
+
+git revert will create a new commit with the data which is need to be reverted 
+
+to view the list of commits use #git log --oneline
+
+if we want to revert old commit - may be 2 commits before - use #git revert HEAD~2
+
+=> git diff - will show the changes from the last commit 
+
+to list the diff between commits use git diff <old commit id> <new commit ID>
+
+
+garbage collection - git gc 
+
+#git gc --prune
+
+git log - shows full history in reverse chronological order
+
+git log --graph
+
+git log --since="4 days ago"
