@@ -46,3 +46,12 @@ git log -10 - shows last 10 commits
 
 
 git log --pretty=format "shows in our desired format"
+
+
+git remote -v => show the remote repo URL 
+
+git fetch => gets commit information from remote but it won't pull any file from remote to local
+
+git remote show origin -  show remote repo details  
+
+git push - send changes from local repo to remote repo 
