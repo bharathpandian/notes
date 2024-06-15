@@ -41,3 +41,8 @@ git log - shows full history in reverse chronological order
 git log --graph
 
 git log --since="4 days ago"
+
+git log -10 - shows last 10 commits 
+
+
+git log --pretty=format "shows in our desired format"
