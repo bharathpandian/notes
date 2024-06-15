@@ -1,0 +1,2 @@
+from master
+i'm from conflict2
