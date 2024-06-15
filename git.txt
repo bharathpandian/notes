@@ -1,0 +1,3 @@
+Important tips and points to remeber for GIT
+
+git rm - removes a file from a project
