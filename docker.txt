@@ -1,0 +1,36 @@
+Docker Swarm - communicates over docker api
+Master and worker concept 
+service - maintain the desired state 
+
+Docker engine -  manages container 
+
+components in docker
+docker client -  docker daemon - containerd - runc 
+runc - creates container 
+containerd - stop/start/pause/delete and push and pull images- handles these operations 
+docker client : how users interact with docker 
+
+the commands are send to docker daemon i.e dockerd
+
+Service in Swarm :
+-> acts as loadbalancer
+-> Define the desired state 
+-> scale container across multiple docker daemons 
+
+SHIM is responisble for keeping stdin and stdout open
+
+#docker container run -it --name <name> <Image:TAG>
+
+OCI - open container initiative 
+
+CLI -  Docker client - Docker daemon receieves instruction - docker daemon calls "containerd" to start a new container - docker daemon uses gRPC (CRUD Style API) - containerd created OCI bundle from docker image - tells "runc" to create container using OCI bundle - 
+once the container starts runc will execute - once the container is up SHIM will be the parent process
+
+
+docker image - has multiple layers -  a container interacts with image over R/W (read write layer) also called as container layer  
+
+management commands:
+
+docker image ls / pull / push/ inspect / import
+
+docker container ls / run / inspect/ top / restart /attach / pause / stats / rm / prune/exec
