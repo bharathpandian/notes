@@ -2,10 +2,26 @@ Test driven development
 => first test cases are developed to faile and develop code to make it work 
 
 
-Smoke test : most important functions are working 
+Smoke test : tests the overall code is working in gigh level
 
 Functional Test : does it do what the code suppose to do
 
 Acceptance test : based on design document
 
-unit test - code 
+unit test - this is to test a single piece of code , like function or method
+
+integration test : how well the new code integrates with existing code 
+
+
+
+Sonarube : code quality check -> bugs, code smell (badly written code), vulnerabilities
+code Coverage : code covered during test cases  
+
+CI:
+compiling
+dependency managemnt
+executing automated tests
+packaging the app for deployment 
+
+Gradle is one among the build automation tool 
+
