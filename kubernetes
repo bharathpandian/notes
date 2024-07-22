@@ -1,0 +1,26 @@
+### Architecture ###
+
+master node / contrl plane 
+
+API server 
+control manager 
+etcd 
+scheduler 
+
+Kubelet
+kubeproxy 
+container run time
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+SVC - service - stable network abstraction 
+label selector defines where to route the traffic to .
+when a service gets created and mapped with a pod using selector a object called endpoint will be created . ndpoint has the details of IP and Service name.
+
+NodePort
+ClusterIp
+Loadbalancer
+
+Service network is assigned for services - kubeproxy takes care of this 
+
+Pod vs Node network
