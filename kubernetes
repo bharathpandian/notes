@@ -24,3 +24,7 @@ Loadbalancer
 Service network is assigned for services - kubeproxy takes care of this 
 
 Pod vs Node network
+
+kubeproxy works as layer 4 LB 
+
+when traffic flows from pod to hit  service it will flow through the cbr0 (bridge) - in kernel - and kubproxy uses IPVS - which is layer 4 LB
